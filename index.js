@@ -7,7 +7,7 @@ dotenv.config();
 // Models
 const TodoTask = require("./models/todoTask");
 
-const uri = "mongodb+srv://todoApp:todoApp@cluster0.dwp1s4x.mongodb.net/?retryWrites=true&w=majority";
+const uri = "MONGO_DB_URI";
 
 //connection to db
 mongoose.connect(uri);
