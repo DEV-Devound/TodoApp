@@ -1,2 +1,2 @@
 # TodoApp
-https://imgur.com/KFOCdlw.png
+![Alt text](https://imgur.com/KFOCdlw.png "a title")
