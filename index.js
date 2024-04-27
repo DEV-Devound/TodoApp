@@ -11,7 +11,7 @@ const uri = process.env.MONGO_URI;
 console.log(uri)
 
 //connection to db
-mongoose.connect(uri);
+mongoose.connect("127.0.0.1:27017/test");
 console.log("Connected to db!");
 
 app.use("/static", express.static("public"))
