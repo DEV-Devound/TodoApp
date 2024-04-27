@@ -7,7 +7,7 @@ dotenv.config();
 // Models
 const TodoTask = require("./models/todoTask");
 
-const uri = "process.env.MONGO_URI;
+const uri = process.env.MONGO_URI;
 
 //connection to db
 mongoose.connect(uri);
